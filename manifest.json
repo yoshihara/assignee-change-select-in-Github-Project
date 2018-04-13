@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "assignee change select in Github Project",
+  "version": "0.0.1",
+  "description": "Github Project assignee切り替えセレクトボックス",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/projects/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "https://github.com/*/projects/*"
+  ]
+}
