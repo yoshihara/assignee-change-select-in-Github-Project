@@ -17,5 +17,5 @@ This chrome extension is buggy snippet, so I will not upload this to Chrome webs
 
 ## how to use
 
-github の projectを開いて2秒後に、assigneeを選択できるセレクトボックスが検索窓の横に表示されます。
+github の projectを開いてしばらくすると（読み込み中を示すローディングのDOMが消えたら）、assigneeを選択できるセレクトボックスが検索窓の横に表示されます。
 セレクトボックスからassgineeを選択すると、選択したassigneeで絞り込み条件が検索窓に入力され、検索が行われます。
