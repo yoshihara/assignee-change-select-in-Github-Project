@@ -6,7 +6,7 @@ This chrome extension is buggy snippet, so I will not upload this to Chrome webs
 
 ## install
 
-1. git clone or unarchive tarball
+1. git clone or download & unarchive tarball
 1. Chromeのヘッダー右上にある三点リーダーをクリックする
 1. 「その他ツール」をクリックする
 1. 「拡張機能」を開く
