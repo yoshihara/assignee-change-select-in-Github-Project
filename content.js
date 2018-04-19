@@ -64,5 +64,11 @@ waitLoading().then(() => {
     document
       .querySelector('input[name="card_filter_query"]')
       .dispatchEvent(inputEvent);
+
+    // Navigationが出るので消すために一回フォーカスを入れてから外す
+    if (value == "") {
+      input.focus();
+      input.blur();
+    }
   };
 });
